@@ -1,4 +1,4 @@
-h1,
+/*h1,
 
 h4 {
   margin: 0 0 20px 0;
@@ -95,7 +95,7 @@ a:hover{
   color: #fff;
   background: #005249a1;
   /* Primary color, can be changed via colors.css */
-  
+  /*
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -129,4 +129,4 @@ a:hover{
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-}
+}*/

@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Contact = () => {
   return (
     <div>
-      <div class="container">
+      <div class="container" id="contact">
       <span class="big-circle"></span>
       <img src="img/shape.png" class="square" alt="" />
       <div class="form">
@@ -57,7 +57,7 @@ const Contact = () => {
           <span class="circle two"></span>
 
           <form action="" autocomplete="off">
-            <h3 class="title text-xl">Contact us</h3>
+            <h3 class="title text-xl heading-white text-white">Contact us</h3>
             <div class="input-container">
               <input type="text" name="name" class="input" />
               <label for="">Username</label>

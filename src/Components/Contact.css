@@ -8,7 +8,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* margin: 0 !important; */
   }
+
   
   .form {
     width: 100%;
@@ -23,13 +25,15 @@
   }
   
   .contact-form {
-    background-color: #1abc9c;
+    /* background-color: #1abc9c; */
+    /* background-color: #cda65d; */
+    background-image: linear-gradient(to right bottom, #d7ab59, #957946, #9b7d45, #a28145, #a88544, #a88440, #a9823d, #a98139, #a37a31, #9d7329, #986d21, #d8a449);
     position: relative;
   }
   
   .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #149279);
+    background: linear-gradient(135deg, transparent 20%, #7d6939);
     position: absolute;
   }
   
@@ -52,7 +56,8 @@
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #1abc9c;
+    /* background-color: #1abc9c; */
+    background-color: #7d6939;
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -159,7 +164,8 @@
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #1abc9c;
+    /* background-color: #1abc9c; */
+    background-color: #7d6939;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -191,7 +197,8 @@
   }
   
   .contact-info .title {
-    color: #1abc9c;
+    /* color: #1abc9c; */
+    color: #926618;
   }
   
   .text {
@@ -208,7 +215,8 @@
   }
   
   .information i {
-    color: #1ABC9C;
+    /* color: #1ABC9C; */
+    color: #7d6939;
   }
   
   .icon {
@@ -233,7 +241,8 @@
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #1abc9c, #149279);
+    /* background: linear-gradient(45deg, #1abc9c, #149279); */
+    background-image: linear-gradient(to right bottom, #8f7546, #957946, #9b7d45, #a28145, #a88544, #a88440, #a9823d, #a98139, #a37a31, #9d7329, #986d21, #926618);
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -250,7 +259,8 @@
     position: absolute;
     width: 110px;
     height: 100px;
-    border: 22px solid #1abc9c;
+    /* border: 22px solid #1abc9c; */
+    border: 22px solid #7d6939;
     border-radius: 50%;
     bottom: -77px;
     right: 50px;
@@ -262,7 +272,7 @@
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #1cd4af, #159b80);
+    background: linear-gradient(to bottom, #8f7546, #c09648);
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);

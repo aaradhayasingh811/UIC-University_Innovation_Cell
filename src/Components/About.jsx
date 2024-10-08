@@ -3,10 +3,10 @@ import './About.css'
 const About = () => {
   return (
    <>
-<div className="about-section">
+<div className="about-section" id="about">
   <div className="inner-container">
-    <h1>About Us</h1>
-    <p className="text">
+    <h1 className='heading font-bold'>About Us</h1>
+    <p className="text text-[#8f7546] font-bold">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit
       ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus
       eius dicta a voluptates sit deleniti autem error eos totam nisi neque

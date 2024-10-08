@@ -4,10 +4,10 @@ import inno from '../Images/inno.png'
 const Inno = () => {
   return (
     <div>
-      <section className="about section" id="about">
+      <section className="about section w-full" id="about">
   <div className="about__container container grid">
     <h2 className="section__title-1">
-      <span>Innowizion</span>
+      <span className='heading'>Innowizion</span>
     </h2>
     <div className="about__perfil">
       <div className="about__image">
@@ -22,11 +22,11 @@ const Inno = () => {
       </div>
     </div>
     <div className="about__info">
-      <p className="about__description">
+      <p className="about__description text-xl">
       Innowizion, hosted by the Institution Innovation Council, is a vibrant event fostering creativity and entrepreneurship. It encourages students to present innovative ideas, collaborate with peers, and connect with industry experts, igniting passion for innovation and paving the way for impactful solutions.
       </p>
       <ul className="about__list">
-        <li className="about__item">
+        <li className="about__item text-lg">
         Innowizion aims to ignite passion for innovation and provide valuable insights into transforming ideas into impactful solutions. 
         </li>
       </ul>

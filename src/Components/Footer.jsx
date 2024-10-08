@@ -12,23 +12,23 @@ const Footer = () => {
         University Innovation Cell comes under Institution Innovation council which focuses on Skill Developent.
         </div>
         <div className="flex flex-col w-1/3  mx-auto  self-center py-3">
-            <a href="" className='hover:text-lg hover:text-[#daa426] my-1'>Team</a>
-            <a href="" className='hover:text-lg hover:text-[#daa426] my-1'>Contact Us</a>
-            <a href="" className='hover:text-lg hover:text-[#daa426] my-1'>Events</a>
-            <a href="" className='hover:text-lg hover:text-[#daa426] my-1'>Innowizion</a>
+            <a href="" className=' hover:text-[#daa426] my-1'>Team</a>
+            <a href="" className=' hover:text-[#daa426] my-1'>Contact Us</a>
+            <a href="" className=' hover:text-[#daa426] my-1'>Events</a>
+            <a href="" className=' hover:text-[#daa426] my-1'>Innowizion</a>
         </div>
       <div className="social flex flex-col w-1/3  mx-auto  self-center py-3">
               <a href="#">
-                <FacebookIcon className='hover:text-[#daa426]'/>
+                <FacebookIcon className='hover:text-[#daa426] my-1'/>
               </a>
               <a href="#">
                 <XIcon />
              </a>
               <a href="#">
-                <InstagramIcon className='hover:text-[#daa426]'/>
+                <InstagramIcon className='hover:text-[#daa426] my-1'/>
               </a>
               <a href="#">
-                <LinkedInIcon className='hover:text-[#daa426]'/>
+                <LinkedInIcon className='hover:text-[#daa426] my-1'/>
               </a>
             </div>
             </div>

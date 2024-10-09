@@ -37,11 +37,11 @@ const Nav = () => {
                 Home
               </a>
             </li>
-            <li className="list-item">
+            {/* <li className="list-item">
               <a className="nav__link visited:text-[#005249]" href="#about">
                 About
               </a>
-            </li>
+            </li> */}
             <li className="list-item">
               <a className="nav__link visited:text-[#005249]" href="/team">
                 Team
@@ -54,7 +54,7 @@ const Nav = () => {
             </li>
             <li className="list-item">
               <a className="nav__link visited:text-[#005249]" href="#contact">
-                Contact Us
+                Contact
               </a>
             </li>
           </ul>

@@ -9,7 +9,7 @@ import e from "../Images/Members/2025/Kumar_Saurabh.jpg"
 import f from "../Images/Members/2025/Vikas_Kumar.jpg"
 import g from "../Images/Members/2025/Sumit.jpeg"
 import h from "../Images/Members/2025/Shiv.jpeg"
-// import a from "../Images/Members/2025/"
+import i from "../Images/Members/2025/Nikhil_2025.jpg"
 // import a from "../Images/Members/2025/"
 const Final = () => {
   return (
@@ -19,7 +19,7 @@ const Final = () => {
             <Card imgSrc={a} name="Shreyansh Pandey" post="President" />
             <Card imgSrc={b} name="Aaditya Narayan Pandey" post="President" />
             <Card imgSrc={c} name="Abhinav Ojha" post="Vice President" />
-            {/* <Card imgSrc={} name="Nikhil Singh" post="Treasurer" /> */}
+            <Card imgSrc={i} name="Nikhil Singh" post="Treasurer" />
             <Card imgSrc={g} name="Sumit Gupta" post="Secretary" />
             <Card imgSrc={h} name="Shiv Narayan" post="Event Head" />
             <Card imgSrc={e} name="Kumar Saurabh" post="Event Head" />

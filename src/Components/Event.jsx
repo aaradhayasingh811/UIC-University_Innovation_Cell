@@ -10,7 +10,7 @@ const Event = () => {
 
       <div className='bg-[#f3f4f6]' id="event">
         <h1 className='text-center text-3xl mb-3 mt-12 heading'>Events</h1>
-        <div className="mx-auto grid xl:grid-cols-4  lg:grid-cols-3 sm:grid-cols-2 justify-items-center my-8 px-16" >
+        <div className="mx-auto grid xl:grid-cols-4  lg:grid-cols-3 sm:grid-cols-2 justify-items-center my-8  sm:px-18 mx-auto" >
   
   <div className="maincontainer rounded">
     <div className="back">
@@ -24,7 +24,7 @@ const Event = () => {
     </div>
     <div className="front mx-auto">
       <div className="image">
-        <img classname="img" src={bytegram} />
+        <img classname="img mx-auto" src={bytegram} />
         <h2>Copywriting</h2>
       </div>
     </div>

@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="w-1/3  mx-auto self-center py-3 foot_content">
         The University Innovation Cell, under the umbrella of the  Institution's Innovation Council  nurtures a dynamic community focused on innovation, creativity, and problem-solving.        </div>
         <div className="flex flex-col w-1/3  mx-auto  self-center py-3">
-            <a href="" className=' hover:text-[#daa426] my-1'>Team</a>
-            <a href="" className=' hover:text-[#daa426] my-1'>Contact Us</a>
-            <a href="" className=' hover:text-[#daa426] my-1'>Events</a>
+            <a href="/team" className=' hover:text-[#daa426] my-1'>Team</a>
+            <a href="#contact" className=' hover:text-[#daa426] my-1'>Contact Us</a>
+            <a href="#event" className=' hover:text-[#daa426] my-1'>Events</a>
             <a href="" className=' hover:text-[#daa426] my-1'>Innowizion</a>
         </div>
       <div className="social flex flex-col w-1/3  mx-auto  self-center py-3">

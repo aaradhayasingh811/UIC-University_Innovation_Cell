@@ -109,7 +109,7 @@ a {
 .nav-toggle {
     aspect-ratio: 1;
     height: 2.25rem;
-    display: inline-grid;
+    display: inline-grid !important;
     place-content: center;
     background: none;
     border: none;

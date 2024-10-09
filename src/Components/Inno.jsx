@@ -31,9 +31,10 @@ const Inno = () => {
         </li>
       </ul>
       <div className="about__buttons">
-        <a href="#contact" className="button text-center w-min">
+        {/* <a href="#contact" className="button w-3/4">
           <i className="ri-send-plane-line" /> Explore more..
-        </a>
+        </a> */}
+        <button className='button w-1/2'>Explore more..</button>
         
       </div>
     </div>

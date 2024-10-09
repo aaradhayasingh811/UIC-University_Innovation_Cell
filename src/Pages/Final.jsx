@@ -3,7 +3,7 @@ import Card from '../Components/Card'
 const Final = () => {
   return (
     <div>
-      <div className="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4 items-center">
 			{/* cards */}
             <Card imgSrc="https://source.unsplash.com/240x320/?portrait?0" name="Shreyansh Pandey" post="President" />
             <Card imgSrc="https://source.unsplash.com/240x320/?portrait?0" name="Aaditya Narayan Pandey" post="President" />

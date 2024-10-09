@@ -38,59 +38,11 @@ const Team = () => {
 			<h3 className="text-2xl font-bold leading-none sm:text-5xl heading">Meet our team</h3>
 			<p className="max-w-2xl dark:text-gray-600">A strong team thrives on collaboration, where diverse strengths unite toward a common goal. Each member brings unique perspectives, fostering creativity and innovation. Communication is key, enabling trust and support that drive success. In challenges, the team's resilience shines, turning obstacles into opportunities. Together, they not only achieve greatness but also build lasting bonds that extend beyond the workplace.</p>
 		</div>
-		{/* <div className="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-		</div> */}
-        {/* buttons */}
-        {/* <div className="flex">
-            <div className="button mx-12" onClick={() => setCount1(count1 = 1,count2=0,count3=0)}>Final year</div>
-            <div className="button mx-12"  onClick={() => setCount1(count1 = 0,count2=1,count3=0)}>Pre-Final year</div>
-            <div className="button mx-12"  onClick={() => setCount1(count1 = 0,count2=0,count3=1)}>Somophore year</div>
-        </div>
-        if($count1==1){
-            <Final/>
-        }
-        if($count2==1){
-            <Third/>
-        }
-        if($count3==1){
-            <Second/>
-        } */}
-         <div className="flex">
-                <div className="button mx-12" onClick={handleFinalYear}>Final year</div>
-                <div className="button mx-12" onClick={handlePreFinalYear}>Pre-Final year</div>
-                <div className="button mx-12" onClick={handleSophomoreYear}>Sophomore year</div>
+		
+         <div className="flex items-center md:flex-row flex-col">
+                <div className="button mx-12 my-2 items-center" onClick={handleFinalYear}>Final year</div>
+                <div className="button mx-12 my-2" onClick={handlePreFinalYear}>Pre-Final year</div>
+                <div className="button mx-12 my-2" onClick={handleSophomoreYear}>Sophomore year</div>
             </div>
             {count1 === 1 && <Final />}
             {count2 === 1 && <Third />}
@@ -104,3 +56,4 @@ const Team = () => {
 }
 
 export default Team
+ 

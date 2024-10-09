@@ -21,11 +21,8 @@ import r from '../Images/Members/2026/Ayush_Upadhyay.jpg'
 import s from '../Images/Members/2026/Khushi_Arya.jpg'
 import t from '../Images/Members/2026/Vidit_yadav.jpg'
 import u from '../Images/Members/2026/Shaurya_Srivastav.jpg'
-// import  from '../Images/Members/2026/'
-// import  from '../Images/Members/2026/'
-// import  from '../Images/Members/2026/'
-// import  from '../Images/Members/2026/'
-// import  from '../Images/Members/2026/'
+import v from '../Images/Members/2026/Aniket.jpeg'
+import w from '../Images/Members/2026/Aman.jpeg'
 // import  from '../Images/Members/2026/'
 
 const Third = () => {
@@ -38,7 +35,7 @@ const Third = () => {
             <Card imgSrc={c} name="Anubhav Singh" post="Editorial & Content Lead" />
             <Card imgSrc={d} name="Anushka Tripathi" post="Editorial & Content Lead" />
 
-            {/* <Card imgSrc={} name="Aniket Shukla" post="Event and Outreach Lead" /> */}
+            <Card imgSrc={v} name="Aniket Shukla" post="Event and Outreach Lead" />
             <Card imgSrc={e} name="Akanksha" post="Event and Outreach Lead" />
             <Card imgSrc={f} name="Anjali Shekhar" post="Event and Outreach Lead" />
             <Card imgSrc={g} name="Yuvraj Singh" post="Event and Outreach Lead" />
@@ -48,7 +45,7 @@ const Third = () => {
             <Card imgSrc={j} name="Ayush Kannojia" post="Managerial Lead" />
             <Card imgSrc={k} name="Priya Singh" post="Managerial Lead" />
 
-            {/* <Card imgSrc={} name="Aman Patel" post="Promotional & Social Media Lead" /> */}
+            <Card imgSrc={w} name="Aman Patel" post="Promotional & Social Media Lead" />
             <Card imgSrc={l} name="Ananya Shukla" post="Promotional & Social Media Lead" />
             <Card imgSrc={m} name="Abhimanyu Singh" post="Promotional & Social Media Lead" />
 

@@ -22,8 +22,8 @@ const Inno = () => {
       </div>
     </div>
     <div className="about__info">
-      <p className="about__description text-xl">
-      Innowizion, hosted by the Institution Innovation Council, is a vibrant event fostering creativity and entrepreneurship. It encourages students to present innovative ideas, collaborate with peers, and connect with industry experts, igniting passion for innovation and paving the way for impactful solutions.
+      <p className="about__description">
+      The University Innovation Cell organizes its annual innovation fest INNOWIZION which primarily comprises of events based on innovation, inguenity and creativity. INNOWIZION first held in 2016, has grown with time to became the largest and one of the most awaited fests due to its uniqueness and exotic events, as well as due to the enthusiasm and creativity that is witnessed every year. 
       </p>
       <ul className="about__list">
         <li className="about__item text-lg">

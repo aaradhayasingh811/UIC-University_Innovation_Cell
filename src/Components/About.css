@@ -7,9 +7,9 @@
 
 
 .about-section{
-    background: url(https://w0.peakpx.com/wallpaper/150/902/HD-wallpaper-harley-davidson.jpg) no-repeat left;
+    background: url("../Images/about.png") no-repeat left;
     background-size: 50%;
-    background-color: #fdfdfd;
+    background-color: #005249;
     overflow: hidden;
     padding: 100px 0;
 }

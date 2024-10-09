@@ -36,16 +36,16 @@ const Contact = () => {
           <div className="social-media">
             <p className=''>Connect with us :</p>
             <div className="social-icons">
-              <a href="#">
+              <a href="https://www.facebook.com//uicmmmut">
                 <FacebookIcon />
               </a>
-              <a href="#">
+              <a href="https://x.com/uicmmmut">
                 <XIcon />
              </a>
-              <a href="#">
+              <a href="https://www.instagram.com/uicmmmut/">
                 <InstagramIcon />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/uicmmmut/">
                 <LinkedInIcon />
               </a>
             </div>

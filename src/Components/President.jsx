@@ -143,7 +143,7 @@ const President = () => {
                </p>
                 <p className="text-center text-gray-600 text-base pt-3 font-normal text">
                 The president's dedication and vision have significantly shaped our society, inspiring us all to work together towards a brighter future.                </p>
-                <div className="w-full flex justify-center pt-5 pb-5">
+                {/* <div className="w-full flex justify-center pt-5 pb-5">
                   <a href="javascript:void(0)" className="mx-5">
                     <div aria-label="Github" role="img">
                     <svg
@@ -156,7 +156,7 @@ const President = () => {
 </svg>
 
    </div>
-                  </a>
+                  </a> */}
                   {/* <a href="javascript:void(0)" className="mx-5">
                     <div aria-label="Twitter" role="img">
                       <svg
@@ -176,7 +176,7 @@ const President = () => {
                     </div>
                   </a> */}
                   
-                </div>
+                {/* </div> */}
               </div>
             </div>
           </div>
@@ -205,8 +205,8 @@ const President = () => {
                 <p className="text-center text-gray-600 text-base pt-3 font-normal text">
                 The convenor's ability to foster open collaboration has created an inclusive environment where every member feels valued and heard.
                 </p>
-                <div className="w-full flex justify-center pt-5 pb-5">
-                  <a href="javascript:void(0)" className="mx-5">
+                {/* <div className="w-full flex justify-center pt-5 pb-5"> */}
+                  {/* <a href="javascript:void(0)" className="mx-5">
                     <div aria-label="Github" role="img">
                     <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -218,7 +218,7 @@ const President = () => {
 </svg>
 
                     </div>
-                  </a>
+                  </a> */}
                   {/* <a href="javascript:void(0)" className="mx-5">
                     <div aria-label="Twitter" role="img">
                       <svg
@@ -238,7 +238,7 @@ const President = () => {
                     </div>
                   </a> */}
                   
-                </div>
+                {/* </div> */}
               </div>
             </div>
           </div>

@@ -10,7 +10,8 @@ import f from "../Images/Members/2025/Vikas_Kumar.jpg"
 import g from "../Images/Members/2025/Sumit.jpeg"
 import h from "../Images/Members/2025/Shiv.jpeg"
 import i from "../Images/Members/2025/Nikhil_2025.jpg"
-// import a from "../Images/Members/2025/"
+import j from "../Images/Members/2025/Anshu.jpeg"
+import k from "../Images/Members/2025/Shivangi.jpg"
 const Final = () => {
   return (
     <div>
@@ -25,8 +26,8 @@ const Final = () => {
             <Card imgSrc={e} name="Kumar Saurabh" post="Event Head" />
             <Card imgSrc={d} name="Amit Yadav" post="Media & Publicity Head" />
             <Card imgSrc={f} name="Vikas Kumar" post="Media & Publicity Head" />
-            {/* <Card imgSrc={} name="Anshu" post="Mentor" /> */}
-            {/* <Card imgSrc={} name="Shivangi Sharma" post="Mentor" /> */}
+            <Card imgSrc={j} name="Anshu" post="Mentor" />
+            <Card imgSrc={k} name="Shivangi Sharma" post="Mentor" />
            
 
 		</div>

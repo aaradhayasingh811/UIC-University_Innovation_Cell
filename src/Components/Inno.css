@@ -22,7 +22,7 @@
   --body-font: "Bai Jamjuree", sans-serif;
   --biggest-font-size: 2.5rem;
   --h1-font-size: 1.75rem;
-  --h2-font-size: 1.25rem;
+  --h2-font-size: 1.25 rem;
   --h3-font-size: 1.125rem;
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
@@ -289,7 +289,7 @@ img {
   color: #8f7546;
   margin-bottom: 1.5rem;
   margin-right: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .about__description::after {
@@ -392,7 +392,8 @@ img {
     padding-left: 3rem;
   }
   .about__description {
-    font-size: var(--h2-font-size);
+    /* font-size: var(--h2-font-size); */
+    font-size: 1.25 rem;
     margin-bottom: 2rem;
   }
   .about__description::after {

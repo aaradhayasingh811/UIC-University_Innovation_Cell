@@ -8,9 +8,8 @@ const Footer = () => {
     <>
     <div className="divide-y divide-slate-400/[.24]">
       <div className="flex bg-[#005249] text-[#dfe0df] flex justify-around text-center" >
-        <div className="w-1/3  mx-auto self-center py-3">
-        University Innovation Cell comes under Institution Innovation council which focuses on Skill Developent.
-        </div>
+        <div className="w-1/3  mx-auto self-center py-3 foot_content">
+        The University Innovation Cell, under the umbrella of the  Institution's Innovation Council  nurtures a dynamic community focused on innovation, creativity, and problem-solving.        </div>
         <div className="flex flex-col w-1/3  mx-auto  self-center py-3">
             <a href="" className=' hover:text-[#daa426] my-1'>Team</a>
             <a href="" className=' hover:text-[#daa426] my-1'>Contact Us</a>
@@ -18,16 +17,16 @@ const Footer = () => {
             <a href="" className=' hover:text-[#daa426] my-1'>Innowizion</a>
         </div>
       <div className="social flex flex-col w-1/3  mx-auto  self-center py-3">
-              <a href="#">
+              <a href="https://www.facebook.com//uicmmmut">
                 <FacebookIcon className='hover:text-[#daa426] my-1'/>
               </a>
-              <a href="#">
+              <a href="https://x.com/uicmmmut">
                 <XIcon />
              </a>
-              <a href="#">
+              <a href="https://www.instagram.com/uicmmmut/">
                 <InstagramIcon className='hover:text-[#daa426] my-1'/>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/uicmmmut/">
                 <LinkedInIcon className='hover:text-[#daa426] my-1'/>
               </a>
             </div>

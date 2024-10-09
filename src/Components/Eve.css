@@ -1,9 +1,9 @@
 .maincontainer
 {
-    width:350px;
+    width:302px;
     height: 500px;
     margin: 10px;
-    float: left; /* stack each div horizontally */
+    /* float: left; stack each div horizontally */
 }
 
 .img
@@ -37,10 +37,7 @@
     top: 200px;
     color: #fcfbf052;
 }
-.front{
-    width:350px;
 
-}
 
 /* style the maincontainer class with all child div's of class .front */
 .maincontainer > .front
@@ -48,7 +45,7 @@
     position: absolute;
     transform: perspective(600px) rotateY(0deg);
     
-    width:350px;
+    width:302px;
     height: 500px;
     backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
     transition: transform .5s linear 0s;
@@ -62,7 +59,7 @@
     /* background: #8f7546; */
     background-image: linear-gradient(to right bottom, #8f7546, #957946, #9b7d45, #a28145, #a88544, #a88440, #a9823d, #a98139, #a37a31, #9d7329, #986d21, #926618);
     color: #ffeecb;
-    width:350px;
+    width:302px;
     line-height: 23px;
     height: 450px;
     border-radius: 10px;

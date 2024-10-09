@@ -23,7 +23,7 @@ const Nav = () => {
           <img src={uic} className='h-20 w-20' alt="" />
           {/* <span className="logo-text">UIC</span> */}
         </a>
-        <button className="nav-toggle">
+        <button className="nav-toggle flex ">
           <span className="toggle--icon" />
         </button>
       </section>

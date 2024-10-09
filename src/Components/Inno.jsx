@@ -4,8 +4,8 @@ import inno from '../Images/inno.png'
 const Inno = () => {
   return (
     <div>
-      <section className="about section w-full" id="about">
-  <div className="about__container container grid">
+      <section className="about section" id="about">
+  <div className="about__container mx-auto container grid">
     <h2 className="section__title-1">
       <span className='heading'>Innowizion</span>
     </h2>

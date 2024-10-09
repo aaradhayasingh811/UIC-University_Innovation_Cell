@@ -40,7 +40,7 @@ const Event = () => {
         write and think about consumer-driven functions.
       </p>
     </div>
-    <div className="front">
+    <div className="front  mx-auto">
       <div className="image">
         <img classname="img" src={malviyan} />
         <h2>Copywriting</h2>
@@ -57,7 +57,7 @@ const Event = () => {
         visual and written communication strategies.
       </p>
     </div>
-    <div className="front">
+    <div className="front  mx-auto">
       <div className="image">
         <img classname="img" src={inno} />
         <h2>Content Marketing</h2>
@@ -76,7 +76,7 @@ const Event = () => {
       </p>
     </div>
     <div className="front">
-      <div className="image">
+      <div className="image  mx-auto">
         <img classname="img" src={induction} />
         <h2>Web Writing</h2>
       </div>

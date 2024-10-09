@@ -8,8 +8,8 @@ const Contact = () => {
   return (
     <div>
       <div className="container mx-auto" id="contact">
-      <span className="big-circle"></span>
-      <img src="img/shape.png" className="square" alt="" />
+      {/* <span className="big-circle"></span> */}
+      {/* <img src="img/shape.png" className="square" alt="" /> */}
       <div className="form">
         <div className="contact-info">
           <h3 className="title">Let's get in touch</h3>

@@ -7,35 +7,35 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Contact = () => {
   return (
     <div>
-      <div class="container" id="contact">
-      <span class="big-circle"></span>
-      <img src="img/shape.png" class="square" alt="" />
-      <div class="form">
-        <div class="contact-info">
-          <h3 class="title">Let's get in touch</h3>
-          <p class="text">
+      <div className="container mx-auto" id="contact">
+      <span className="big-circle"></span>
+      <img src="img/shape.png" className="square" alt="" />
+      <div className="form">
+        <div className="contact-info">
+          <h3 className="title">Let's get in touch</h3>
+          <p className="text">
             University Innovation Cell comes under Institution Innovation council which focuses on Skill Developent.
           </p>
 
-          <div class="info">
-            <div class="information">
-              {/* <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp */}
+          <div className="info">
+            <div className="information">
+              {/* <i className="fas fa-map-marker-alt"></i> &nbsp &nbsp */}
 
               <p>Madan Mohan Malaviya University of Technology, Gorakhpur</p>
             </div>
-            <div class="information">
-              {/* <i class="fas fa-envelope"></i> &nbsp &nbsp */}
+            <div className="information">
+              {/* <i className="fas fa-envelope"></i> &nbsp &nbsp */}
               <p>uicmmmut@gmail.com</p>
             </div>
-            {/* <div class="information">
-              <i class="fas fa-phone"></i>&nbsp&nbsp
+            {/* <div className="information">
+              <i className="fas fa-phone"></i>&nbsp&nbsp
               <p>123-456-789</p>
             </div> */}
           </div>
 
-          <div class="social-media">
+          <div className="social-media">
             <p className=''>Connect with us :</p>
-            <div class="social-icons">
+            <div className="social-icons">
               <a href="#">
                 <FacebookIcon />
               </a>
@@ -52,33 +52,33 @@ const Contact = () => {
           </div>
         </div>
 
-        <div class="contact-form">
-          <span class="circle one"></span>
-          <span class="circle two"></span>
+        <div className="contact-form">
+          <span className="circle one"></span>
+          <span className="circle two"></span>
 
           <form action="" autocomplete="off">
-            <h3 class="title text-xl heading-white text-white">Contact us</h3>
-            <div class="input-container">
-              <input type="text" name="name" class="input" />
+            <h3 className="title text-xl heading-white text-white">Contact us</h3>
+            <div className="input-container">
+              <input type="text" name="name" className="input" />
               <label for="">Username</label>
               <span>Username</span>
             </div>
-            <div class="input-container">
-              <input type="email" name="email" class="input" />
+            <div className="input-container">
+              <input type="email" name="email" className="input" />
               <label for="">Email</label>
               <span>Email</span>
             </div>
-            <div class="input-container">
-              <input type="tel" name="phone" class="input" />
+            <div className="input-container">
+              <input type="tel" name="phone" className="input" />
               <label for="">Phone</label>
               <span>Phone</span>
             </div>
-            <div class="input-container textarea">
-              <textarea name="message" class="input"></textarea>
+            <div className="input-container textarea">
+              <textarea name="message" className="input"></textarea>
               <label for="">Message</label>
               <span>Message</span>
             </div>
-            <input type="submit" value="Send" class="btn" />
+            <input type="submit" value="Send" className="btn" />
           </form>
         </div>
       </div>

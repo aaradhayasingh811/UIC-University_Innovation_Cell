@@ -109,7 +109,7 @@ const President = () => {
 //     </div>
   
     <div className="w-full bg-gray-100 px-10 ">
-      <div className="container  mx-auto flex-col">
+      <div className="mx-auto flex-col">
       <div className="my-8">
       <h1 className="font-bold text-3xl text-center mb-1  heading">
       Meet the team</h1>
@@ -117,7 +117,7 @@ const President = () => {
         <div
           role="list"
           aria-label="Behind the scenes People "
-          className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around flex-"
+          className="lg:flex md:flex sm:flex items-center xl:justify-around flex-wrap md:justify-around sm:justify-around lg:justify-around flex-"
         >
           <div
             role="listitem"
